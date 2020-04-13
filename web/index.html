@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head><title>MVC Examples</title>
+<link rel="stylesheet"
+      href="./css/styles.css"
+      type="text/css"/>
+</head>
+<body>
+<table class="title">
+  <tr><th>MVC Examples</th></tr>
+</table>
+<br/>
+<fieldset>
+  <legend>Bank Account Balance</legend>
+
+  <!-- the html page invokes the "show-balance" servlet, i.e., the ShowBalance class -->
+
+  <form action="show-balance" target="_blank">
+    Customer ID (1, 2, 3,...):
+    <input type="number" name="customerId"/><br/>
+    <input type="submit" value="Show Balance"/>
+  </form>
+</fieldset>
+
+<fieldset>
+  <legend>Inserimento nuovo utente</legend>
+  <form action="insert_form.html">
+    <label>Inserisci nuovo customer</label>
+    <input type="submit" value="new customer">
+  </form>
+
+</fieldset>
+
+<fieldset>
+  <form action="show-all">
+    <label>Visualizza i customer</label>
+    <input type="submit" value="Visualizza">
+
+  </form>
+</fieldset>
+
+
+</body></html>
